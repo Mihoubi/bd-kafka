@@ -1,0 +1,12 @@
+{
+  "schema": "{
+    \"name\": \"products\",
+    \"namespace\": \"nifi\",
+    \"type\": \"record\",
+    \"fields\": [
+        { \"name\": \"id\", \"type\": \"string\" },
+        { \"name\": \"product_name\", \"type\": \"string\" },
+        { \"name\": \"description\", \"type\": \"string\" }
+    ]
+  }"
+}
